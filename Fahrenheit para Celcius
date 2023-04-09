@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     //Entrada
+     Scanner teclado = new Scanner(System.in);
+     //Processamento/Armazenamento
+     System.out.print("Digite a temperatura em Fahrenheit: ");
+     double f = teclado.nextDouble();
+
+     double c = 5 * ((f - 32) / 9);
+     //Saida
+     System.out.println("A temperatura em Celcius é: " + c + "C!");
+
+     }
+
+}
